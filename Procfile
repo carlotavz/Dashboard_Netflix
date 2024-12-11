@@ -1,3 +1,3 @@
-web: python netflix_dashboard.py
+web: gunicorn netflix_dashboard:app
 
 
