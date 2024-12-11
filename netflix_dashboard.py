@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
 import webbrowser
 from threading import Timer
-df = pd.read_csv('/Users/carlotavazquezarrojo/Documents/Master_2024/visualizacion/carpeta_conda/netflix_titles.csv')
+df = pd.read_csv('netflix_titles.csv')
 
 
 
