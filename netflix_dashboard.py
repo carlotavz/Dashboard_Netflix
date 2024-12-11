@@ -269,5 +269,5 @@ def open_browser():
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
-    Timer(1, open_browser).start()  # Abrir navegador después de 1 segundo
-    app.run_server(debug=True, use_reloader=False)
+    app.run_server(debug=False, host='0.0.0.0', port=8080)
+
