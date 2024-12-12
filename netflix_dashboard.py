@@ -266,7 +266,7 @@ def update_actors(selected_title, prev_clicks, next_clicks):
 # Función para abrir el navegador automáticamente
 def open_browser():
     webbrowser.open_new("http://127.0.0.1:8050/")
-
+server = app.server
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=8080)
